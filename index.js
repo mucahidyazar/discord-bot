@@ -1,4 +1,4 @@
-require("dotenv").config({ path: "./config/env/dev.env" });
+require("dotenv").config({ path: "./dev.env" });
 const Discord = require("discord.js");
 const fetch = require("node-fetch");
 const Filter = require("bad-words");
